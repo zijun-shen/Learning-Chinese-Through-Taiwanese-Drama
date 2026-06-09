@@ -27,6 +27,10 @@ h1{font-size:clamp(2.7rem,6vw,5.4rem);line-height:1.15;font-weight:500;letter-sp
 .card p{font-family:"Noto Sans TC",sans-serif;color:#747887;font-size:.92rem;line-height:1.85}
 .enter{margin-top:28px;font-family:"Cormorant Garamond",serif;color:var(--lav);letter-spacing:.08em;font-size:1rem}
 .note{text-align:center;color:#8a8e9e;font-size:.85rem;font-family:"Noto Sans TC",sans-serif;margin-top:42px}
+.vocab-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:28px}
+.vocab-actions a{text-decoration:none;font-family:"Cormorant Garamond",serif;color:var(--lav);letter-spacing:.08em;font-size:1rem;border:1px solid var(--line);border-radius:999px;padding:7px 13px;background:rgba(255,255,255,.58);transition:.22s ease}
+.vocab-actions a:hover{background:var(--pale);border-color:#c9c0e7;transform:translateY(-2px)}
+
 @media(max-width:850px){.cards{grid-template-columns:1fr}.top{margin-bottom:48px}.wrap{padding:36px 18px 54px}}
 </style>
 </head>
@@ -40,9 +44,17 @@ h1{font-size:clamp(2.7rem,6vw,5.4rem);line-height:1.15;font-weight:500;letter-sp
     <p class="subtitle">以台灣影集作為媒體中文與文化議題教學材料，結合人物關係、劇情理解與詞彙學習，引導學習者進入真實語境與社會思辨。</p>
   </section>
   <section class="cards">
-    <a class="card" href="ep1-characters.html"><div class="num">01</div><h2>人物介紹</h2><p>認識第一集主要人物與角色關係，作為觀影前的背景知識與課堂導入。</p><div class="enter">Enter →</div></a>
-    <a class="card" href="ep1-synopsis.html"><div class="num">02</div><h2>第一集劇情大綱</h2><p>透過分段劇情摘要掌握故事脈絡，降低觀影前的理解負擔。</p><div class="enter">Enter →</div></a>
-    <a class="card" href="ep1-vocabulary.html"><div class="num">03</div><h2>第一集生詞表</h2><p>整理第一集重點詞彙，支援課前預習、課堂討論與課後自主學習。</p><div class="enter">Enter →</div></a>
+    <a class="card" href="./characters.html"><div class="num">01</div><h2>人物介紹</h2><p>認識第一集主要人物與角色關係，作為觀影前的背景知識與課堂導入。</p><div class="enter">Enter →</div></a>
+    <a class="card" href="./ep1-synopsis.html"><div class="num">02</div><h2>第一集劇情大綱</h2><p>透過分段劇情摘要掌握故事脈絡，降低觀影前的理解負擔。</p><div class="enter">Enter →</div></a>
+    <div class="card">
+      <div class="num">03</div>
+      <h2>第一集生詞表</h2>
+      <p>整理第一集重點詞彙，支援課前預習、課堂討論與課後自主學習。</p>
+      <div class="vocab-actions">
+        <a href="./ep1-key-expressions-part1.html">Scenes 01–05 →</a>
+        <a href="./ep1-key-expressions-part2.html">Scenes 06–10 →</a>
+      </div>
+    </div>
   </section>
   <p class="note">Conference teaching demonstration module · Episode 1</p>
 </main>
